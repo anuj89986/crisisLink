@@ -2,7 +2,7 @@ import { ApiError } from "../utils/ApiError.js";
 import { ApiResponse } from "../utils/ApiResponse.js";
 import asyncHandler from "../utils/AsyncHandler.js";
 import Incident from "../models/incident.model.js";
-import { uploadOnCloudinary } from "../config/Cloudinary.js";
+import { uploadOnCloudinary } from "../config/cloudinary.js";
 import { analyzeIncidentSeverity } from "../utils/GeminiService.js";
 
 const createIncident = asyncHandler(async (req, res) => {
