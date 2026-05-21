@@ -1,6 +1,6 @@
 import { ApiError } from "../utils/ApiError.js";
 import asyncHandler from "../utils/AsyncHandler.js";
-import Message from "../models/Message.model.js";
+import Message from "../models/message.model.js";
 import { ApiResponse } from "../utils/ApiResponse.js";
 import { getIO } from "../socket/index.js";
 
